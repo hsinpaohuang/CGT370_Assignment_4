@@ -49,7 +49,6 @@ d3.queue()
           type: "GeometryCollection",
           geometries: countyMap.objects.indycounty.geometries
       });
-	  console.log("hello world");
 
     var projection = d3.geoMercator()
         .fitExtent([[0, 0], [350, 500]],indyState);
